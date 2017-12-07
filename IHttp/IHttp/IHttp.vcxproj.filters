@@ -14,13 +14,13 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
     <Filter Include="WinInet">
-      <UniqueIdentifier>{6fc704f5-6ec5-4991-9aeb-faacc5ac6712}</UniqueIdentifier>
+      <UniqueIdentifier>{638c6700-29f2-4332-9d31-b43671f968ba}</UniqueIdentifier>
     </Filter>
     <Filter Include="HttpSocket">
-      <UniqueIdentifier>{779b6873-17c3-47db-933f-464de901f5c0}</UniqueIdentifier>
+      <UniqueIdentifier>{d96dc0e1-4e1a-4a66-bdfa-6d13d662e2f4}</UniqueIdentifier>
     </Filter>
     <Filter Include="WinHttp">
-      <UniqueIdentifier>{dbb1eac9-be79-4851-a283-5abccd060ef2}</UniqueIdentifier>
+      <UniqueIdentifier>{679fb8c7-d357-4964-b262-9295412b2e3b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -47,6 +47,12 @@
     <ClInclude Include="Common.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Http.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IHttpInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -65,14 +71,8 @@
     <ClInclude Include="WinHttp\winhttp.h">
       <Filter>WinHttp</Filter>
     </ClInclude>
-    <ClInclude Include="IHttpInterface.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Http.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ReadMe.txt" />
+    <Text Include="ReadMe.txt" />
   </ItemGroup>
 </Project>

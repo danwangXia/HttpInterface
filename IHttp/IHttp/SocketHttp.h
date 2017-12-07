@@ -22,6 +22,7 @@ struct HTTP_HERDER
 	char szHostName[30];		//服务器域名地址，例如：www.baidu.com
 	char szRange[11];			//断点续传起始点，Range: bytes=*-
 	char szConnection[11];		//连接方式，默认：Keep-Alive
+
 	HTTP_HERDER()
 	{
 		memset(this, 0, sizeof(HTTP_HERDER));
