@@ -45,7 +45,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//TestWinHttp();		//测试使用WinHttp实现的HTTP接口
 	//TestSocketHttp();		//测试使用Socket实现的HTTP接口
 	TestDownloadFile();		//测试下载文件，使用回调接口获取下载进度
-	//111
+	//111222
 	system("pause");
 	//打印出内存泄漏信息
  	_CrtDumpMemoryLeaks();
